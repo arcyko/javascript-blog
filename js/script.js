@@ -87,7 +87,8 @@ function generateTitleLinks() {
 
     /* insert link into html variable */
 
-    html = html + linkHTML;
+    //html = html + linkHTML;
+    html += linkHTML;
     console.log(html);
   }
 
