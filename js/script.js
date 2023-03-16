@@ -232,11 +232,14 @@ function generateAuthors() {
   const articles = document.querySelectorAll(optArticleSelector);
 
   for (let article of articles) {
+    const authorList = article.querySelector(optArticleAuthorSelector);
+
     const author = article.getAttribute("data-author");
 
     const linkHTML = '<a href="#author-' + author + '">' + author + "</a>";
 
     const postAuthor = article.querySelector(optArticleAuthorSelector);
+
     postAuthor.innerHTML = linkHTML;
   }
 }
