@@ -122,3 +122,47 @@ body {
     margin: 0 10px 0 0;
   }
 }
+
+.post-tags {
+  display: flex;
+
+  a {
+    padding: 0 10px 0 0;
+  }
+}
+
+/* Tags */
+
+.tag-size-5 {
+  font-size: 140%;
+  color: #e84118;
+}
+
+.tag-size-4 {
+  font-size: 125%;
+  color: #0097e6;
+}
+
+.tag-size-3 {
+  font-size: 110%;
+  color: #44bd32;
+}
+
+.tag-size-2 {
+  font-size: 95%;
+  color: #e1b12c;
+}
+
+.tag-size-1 {
+  font-size: 80%;
+  color: #8c7ae6;
+}
+
+.sidebar .tags {
+  li {
+    display: inline-block;
+    a {
+      padding: 0 10px 0 0;
+    }
+  }
+}
