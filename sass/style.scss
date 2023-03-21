@@ -11,7 +11,9 @@ $font-text: 'Source Sans Pro', sans-serif;
 
 /* Global */
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -57,7 +59,8 @@ body {
   flex: 2 0 0;
 }
 
-.sidebar, .posts {
+.sidebar,
+.posts {
   background: $color-light;
   margin-right: 10px;
   padding: 40px;
@@ -121,10 +124,6 @@ body {
   p {
     margin: 0 10px 0 0;
   }
-}
-
-.post-tags {
-  display: flex;
 
   a {
     padding: 0 10px 0 0;
@@ -161,6 +160,7 @@ body {
 .sidebar .tags {
   li {
     display: inline-block;
+
     a {
       padding: 0 10px 0 0;
     }
